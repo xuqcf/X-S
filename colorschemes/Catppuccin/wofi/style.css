@@ -1,0 +1,73 @@
+/* Catppuccin Mocha - Modern Pastel Edition 
+   Targets: High-diversity soft tones, layered depth, and Mauve accents
+*/
+
+* {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+window {
+    margin: 10px;
+    padding: 25px;
+    /* Mocha Mantle for the base - lighter than Crust for a softer look */
+    background-color: rgba(24, 24, 37, 0.94); 
+    border: 2px solid rgba(203, 166, 247, 0.3); /* Soft Mauve border */
+    border-radius: 25px; 
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+}
+
+#outer-box {
+    margin: 10px;
+}
+
+/* Search bar using Surface 0 for internal contrast */
+#input {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(49, 50, 68, 0.6); 
+    color: #cdd6f4; /* Mocha Text */
+    border: 1px solid rgba(137, 220, 235, 0.4); /* Sky Blue stroke */
+    font-size: 16px;
+}
+
+#input:focus {
+    border: 1px solid #cba6f7; /* Highlight Mauve on focus */
+}
+
+#inner-box {
+    background-color: transparent;
+}
+
+#entry {
+    margin: 5px 10px;
+    padding: 12px;
+    border-radius: 18px;
+}
+
+/* THE SELECTION: Mauve glass effect */
+#entry:selected {
+    background-color: rgba(203, 166, 247, 0.15);
+    border: 1px solid rgba(203, 166, 247, 0.7);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); 
+}
+
+#img {
+    margin-right: 15px;
+    -gtk-icon-size: 28px;
+}
+
+#text {
+    color: #cdd6f4;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Selection Text: Vibrant Mauve glow */
+#entry:selected #text {
+    color: #cba6f7;
+    text-shadow: 0 0 5px rgba(203, 166, 247, 0.6);
+}

@@ -1,0 +1,7 @@
+@define-color background1 #1a0f0f;
+@define-color background2 rgba(15, 5, 5, 0.95);
+@define-color selection rgba(255, 0, 60, 0.25);
+@define-color warning #ff003c;
+@define-color accent #ff4500;
+@define-color text #f5e0dc;
+@define-color border #4a2f2f;

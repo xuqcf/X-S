@@ -1,0 +1,12 @@
+@define-color background1 #1d2021;   /* Hard Dark */
+@define-color background2 #282828;   /* Medium Dark */
+@define-color sepepator #504945;     /* Grey */
+@define-color warning #ea6962;       /* Red */
+@define-color caution #d8a657;       /* Yellow */
+@define-color performance #a9b665;   /* Green */
+@define-color audio #d3869b;         /* Purple */
+@define-color misc #7daea3;          /* Blue */
+@define-color date #89b482;          /* Aqua */
+@define-color work #dfbf8e;          /* Cream */
+@define-color window #e78a4e;        /* Orange */
+@define-color text #f2e5bc;          /* Bright Cream */

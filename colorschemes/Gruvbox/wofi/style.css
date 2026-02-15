@@ -1,0 +1,73 @@
+/* Gruvbox Material - Retro Warmth Edition 
+   Targets: High-diversity sepia tones, clean row layout
+*/
+
+* {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+window {
+    margin: 10px;
+    padding: 25px;
+    /* Gruvbox Dark Hard - The deepest shade for contrast */
+    background-color: rgba(29, 32, 33, 0.94); 
+    border: 2px solid rgba(216, 166, 87, 0.3); /* Muted Gold border */
+    border-radius: 25px; 
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+}
+
+#outer-box {
+    margin: 10px;
+}
+
+/* Search bar using Gruvbox 'Soft' for diversity */
+#input {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(60, 56, 54, 0.7); 
+    color: #dfbf8e; /* Cream text */
+    border: 1px solid rgba(169, 182, 101, 0.4); /* Subtle Green stroke */
+    font-size: 16px;
+}
+
+#input:focus {
+    border: 1px solid #d8a657; /* Highlight Gold on focus */
+}
+
+#inner-box {
+    background-color: transparent;
+}
+
+#entry {
+    margin: 5px 10px;
+    padding: 12px;
+    border-radius: 18px;
+}
+
+/* THE SELECTION: Material Orange highlight */
+#entry:selected {
+    background-color: rgba(231, 138, 78, 0.15);
+    border: 1px solid rgba(231, 138, 78, 0.7);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+#img {
+    margin-right: 15px;
+    -gtk-icon-size: 28px;
+}
+
+#text {
+    color: #dfbf8e;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Selection Text: Warm Aqua glow */
+#entry:selected #text {
+    color: #89b482;
+    text-shadow: 0 0 5px rgba(137, 180, 130, 0.5);
+}W

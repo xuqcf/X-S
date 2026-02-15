@@ -1,0 +1,12 @@
+width=900
+height=600
+location=center
+show=dmenu
+prompt=Select Wallpaper...
+filter_rate=100
+allow_images=true
+image_size=180
+layout=grid
+columns=3
+halign=fill
+content_halign=fill

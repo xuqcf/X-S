@@ -1,0 +1,6 @@
+import:
+  - ~/.config/alacritty/alacritty-theme.yml
+
+font:
+  normal:
+    family: JetBrains Mono

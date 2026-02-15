@@ -1,0 +1,12 @@
+@define-color background1 #242933;   /* Deepest */
+@define-color background2 #3b4252;   /* Medium */
+@define-color sepepator #4c566a;     /* Light Gray */
+@define-color warning #d08770;       /* Nord Orange */
+@define-color caution #ebcb8b;       /* Nord Yellow */
+@define-color performance #a3be8c;   /* Nord Green */
+@define-color audio #b48ead;         /* Nord Purple */
+@define-color misc #8fbcbb;          /* Seafoam */
+@define-color date #88c0d0;          /* Frost Cyan */
+@define-color work #81a1c1;          /* Frost Blue */
+@define-color window #5e81ac;        /* Arctic Blue */
+@define-color text #eceff4;          /* Bright White */

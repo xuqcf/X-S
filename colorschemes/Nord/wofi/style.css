@@ -1,0 +1,73 @@
+/* Nord - Arctic Frost Edition 
+   Targets: High-diversity polar tones, layered depth, and frost accents
+*/
+
+* {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+window {
+    margin: 10px;
+    padding: 25px;
+    /* Nord Polar Night 0 - The deepest arctic blue for the base */
+    background-color: rgba(36, 41, 51, 0.94); 
+    border: 2px solid rgba(136, 192, 208, 0.3); /* Subtle Frost Cyan border */
+    border-radius: 25px; 
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+}
+
+#outer-box {
+    margin: 10px;
+}
+
+/* Search bar using Polar Night 3 for internal contrast */
+#input {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(76, 86, 106, 0.5); 
+    color: #eceff4; /* Bright Snow Storm text */
+    border: 1px solid rgba(129, 161, 193, 0.4); /* Frost Blue stroke */
+    font-size: 16px;
+}
+
+#input:focus {
+    border: 1px solid #88c0d0; /* Highlight Frost Cyan on focus */
+}
+
+#inner-box {
+    background-color: transparent;
+}
+
+#entry {
+    margin: 5px 10px;
+    padding: 12px;
+    border-radius: 18px;
+}
+
+/* THE SELECTION: Frost Blue glow with Polar Night background */
+#entry:selected {
+    background-color: rgba(129, 161, 193, 0.15);
+    border: 1px solid rgba(129, 161, 193, 0.7);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); 
+}
+
+#img {
+    margin-right: 15px;
+    -gtk-icon-size: 28px;
+}
+
+#text {
+    color: #d8dee9;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Selection Text: Bright Frost Cyan glow */
+#entry:selected #text {
+    color: #88c0d0;
+    text-shadow: 0 0 5px rgba(136, 192, 208, 0.6);
+}

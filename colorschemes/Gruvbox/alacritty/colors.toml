@@ -1,0 +1,23 @@
+[colors.primary]
+background = '#1d2021' # Gruvbox Dark Hard for depth
+foreground = '#dfbf8e' # Soft Cream/Tan
+
+[colors.normal]
+black = '#282828'
+red = '#ea6962'
+green = '#a9b665'
+yellow = '#d8a657'
+blue = '#7daea3'
+magenta = '#d3869b'
+cyan = '#89b482'
+white = '#dfbf8e'
+
+[colors.bright]
+black = '#928374'   # Gray for comments/diversity
+red = '#ea6962'
+green = '#a9b665'
+yellow = '#d8a657'
+blue = '#7daea3'
+magenta = '#d3869b'
+cyan = '#89b482'
+white = '#f2e5bc'   # Brighter cream

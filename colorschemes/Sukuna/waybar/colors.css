@@ -1,0 +1,17 @@
+/* Malevolent Shrine - Sukuna Color Scheme */
+@define-color background1    #0a0808; /* The pitch-black ink of the tattoos */
+@define-color background2    #1a0f0f; /* Deep, shadowed crimson sky */
+@define-color sepepator      #451a1a; /* Muted blood-stained borders */
+
+/* Functional Colors */
+@define-color warning        #e23a3e; /* Sukuna's Hair / Cursed Energy Pink-Red */
+@define-color caution        #820808; /* Deep Dried Blood */
+@define-color performance    #d4c4bc; /* Kimono Off-White / Bone */
+@define-color audio          #705a52; /* Weathered bone / wood shading */
+@define-color misc           #ff3d3d; /* Piercing red eye-glow */
+
+/* Interface Elements */
+@define-color date           #b32d2e; /* Darker accent from the sky gradient */
+@define-color work           #9e2a2b; /* Traditional Japanese Red */
+@define-color window         #e23a3e; /* Main tattoo/hair accent */
+@define-color text           #e5dada; /* Desaturated bone-white text */

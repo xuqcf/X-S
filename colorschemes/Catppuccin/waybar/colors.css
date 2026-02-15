@@ -1,0 +1,12 @@
+@define-color background1 #11111b;   /* Crust */
+@define-color background2 #181825;   /* Mantle */
+@define-color sepepator #585b70;     /* Surface */
+@define-color warning #f38ba8;       /* Red */
+@define-color caution #fab387;       /* Peach */
+@define-color performance #a6e3a1;   /* Green */
+@define-color audio #f5c2e7;         /* Flamingo */
+@define-color misc #94e2d5;          /* Teal */
+@define-color date #89b4fa;          /* Blue */
+@define-color work #cba6f7;          /* Mauve */
+@define-color window #f5e0dc;        /* Rosewater */
+@define-color text #cdd6f4;          /* Text */

@@ -1,0 +1,85 @@
+/* Sukuna Glassmorphism - Premium UI Edition 
+   Targets: Frosted glass, warm cursed glows, and high-end spacing
+*/
+
+* {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* Transition for that smooth "warmth" shift */
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+window {
+    margin: 10px;
+    padding: 25px;
+    /* Semi-transparent dark base for glass effect */
+    background-color: rgba(15, 5, 5, 0.85); 
+    /* Subtle outer rim light */
+    border: 1px solid rgba(255, 69, 0, 0.15); 
+    border-radius: 35px; 
+    /* Elegant font stack */
+    font-family: "Inter", "JetBrainsMono Nerd Font", sans-serif;
+}
+
+#outer-box {
+    margin: 10px;
+}
+
+/* Search bar with "Inner Glow" and Glass effect */
+#input {
+    margin-bottom: 30px;
+    padding: 18px;
+    border-radius: 20px;
+    /* Soft crimson glass */
+    background-color: rgba(45, 15, 15, 0.5); 
+    color: #f5e0dc;
+    border: 1px solid rgba(255, 0, 60, 0.2);
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+#input:focus {
+    /* Glowing border when active */
+    border: 1px solid #ff4500;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.3);
+}
+
+#entry {
+    margin: 12px;
+    padding: 20px;
+    border-radius: 28px;
+    /* Highlighting the warmth from your reference */
+}
+
+/* THE SELECTION: Pure Glassmorphism */
+#entry:selected {
+    /* Multi-layered shadow to create the glow from the image */
+    background-color: rgba(255, 0, 60, 0.12);
+    border: 1px solid rgba(255, 69, 0, 0.6);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4), 
+                inset 0 0 15px rgba(255, 0, 60, 0.2); 
+}
+
+#img {
+    margin-bottom: 12px;
+    border-radius: 22px; 
+    /* Soft rim light on images */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#text {
+    /* Warm bone-white font */
+    color: #f5e0dc;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    /* Spacing for modern "clean" look */
+    letter-spacing: 0.3px;
+}
+
+/* Active text warmth */
+#entry:selected #text {
+    color: #ff4500;
+    text-shadow: 0 0 8px rgba(255, 69, 0, 0.4);
+}

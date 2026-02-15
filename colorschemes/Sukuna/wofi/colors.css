@@ -1,0 +1,8 @@
+/* Sukuna Theme Color Palette */
+@define-color background1 #1a0f0f;      /* Dark Charcoal Red */
+@define-color background2 rgba(15, 5, 5, 0.95); /* Deep Black-Red */
+@define-color selection rgba(255, 0, 60, 0.3);  /* Red Glow for the active tile */
+@define-color warning #ff003c;         /* Primary Sukuna Red */
+@define-color accent #ff4500;          /* Cursed Technique Orange */
+@define-color text #f5e0dc;            /* Bone White text */
+@define-color border #4a2f2f;          /* Muted Blood Border */
