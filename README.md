@@ -1,7 +1,7 @@
 
 ---
 
-```markdown
+
 # X-S (X-Style) 
 
 A modular theme engine and configuration suite for Hyprland. X-S allows you to switch between diverse color schemes (Catppuccin, Gruvbox, Nord, etc.) seamlessly across your entire desktop environment.
