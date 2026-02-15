@@ -74,9 +74,9 @@ I am always looking for new color schemes and optimizations! If you want to cont
 
 ---
 
-*Built with ❤️ for the Linux Community.*
+Built with ❤️ for the Linux Community.
 
 ```
 
----
+
 
