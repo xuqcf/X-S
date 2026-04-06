@@ -24,8 +24,11 @@ done | wofi --dmenu --conf "$W_CONF")
 if [ ! -z "$selected" ]; then
     # This line extracts just the filename from the Wofi output
     file_to_apply=$(echo "$selected" | awk -F ':' '{print $NF}')
+    full_path="$WALL_DIR/$file_to_apply"
     
-    # Apply using swww
-    swww img "$WALL_DIR/$file_to_apply" --transition-type grow --transition-pos center
+    # Apply using hyprpaper
+    hyprctl hyprpaper unload all
+    hyprctl hyprpaper preload "$full_path"
+    hyprctl hyprpaper wallpaper "DP-1,$full_path"
     notify-send "Wallpaper Changed" "Applied $file_to_apply"
 fi
